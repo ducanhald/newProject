@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/ducanhald/newProject#readme",
     "lint-staged": {
-        "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --write "
+        "src/**/*.{js,json,scss}": "prettier --single-quote --write "
       },
     "husky":{
         "pre-commit": "lint-staged"
